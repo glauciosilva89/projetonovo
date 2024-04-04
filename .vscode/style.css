@@ -83,16 +83,15 @@ body {
   z-index: 1;
   transform: translateY(-50%);
   animation: slide-back 0.2s;
-  
-  }
+}
 
-  .light #switch button {
-    animation: slide-in 0.2s forwards;
-  }
+.light #switch button {
+  animation: slide-in 0.2s forwards;
+}
 
-  #switch button:hover {
-    outline: 8px solid var(--highlight-color);
-  }
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
 
 #switch span {
   display: block;
@@ -104,7 +103,6 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
 
 /* links */
 ul {
